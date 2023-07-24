@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
 
     .nav-container,
-    .nav-items-container {
+    .nav-items-container,.banner-container {
         flex-direction: column;
         align-items: center;
     }
@@ -9,6 +9,33 @@
     .nav-items-container a,
     .items-icon {
         margin-top: 20px;
+    }
+
+
+    
+    .banner-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner,
+    .banner-img {
+        width: 100%;
+        padding-top: 20%;
+    }
+
+
+    .banner-text,
+    .banner-btn {
+        padding-left: 5%;
+    }
+
+    .banner-text h1 {
+        font-size: 75px;
+    }
+
+    .banner-text h2 {
+        font-size: 38px;
     }
 
 }
@@ -33,9 +60,16 @@
 
 
 
+
+
+
+
+
+
+
 @media screen and (min-width:576px) and (max-width:768px) {
 
-    .nav-items-container
+    .nav-items-container,.banner-container
      {
         flex-direction: column;
         align-items: center;
@@ -45,6 +79,35 @@
     .items-icon {
         margin-top: 20px;
     }
+
+
+    
+    .banner-container
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner,
+    .banner-img {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .banner-text h1 {
+        font-size: 95px;
+    }
+
+    .banner-text h2 {
+        font-size: 48px;
+    }
+
+    .banner-text,
+    .banner-btn {
+        padding-left: 30%;
+    }
+
+
 
 
 

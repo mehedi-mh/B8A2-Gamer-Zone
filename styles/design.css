@@ -82,3 +82,78 @@ nav {
     padding: 0 10px;
 
 }
+
+
+
+
+
+
+.banner-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    
+    width: 50%;
+    height: 620px;
+    background-image: url("/images/Group\ 14.png");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+
+}
+
+.banner-text {
+    padding: 20% 0 0% 20%;
+}
+
+.banner-text h1 {
+    font-size: 95px;
+    font-weight: 800;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.banner-text p {
+    padding-bottom: 20px;
+}
+.banner-btn {
+    display: flex;
+    padding-left: 18%;
+    gap: 20px;
+}
+
+.btn-sign-in {
+    background: #FF42A5;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 48px;
+}
+
+.btn-go {
+    background: #4EC5F7;
+    width: 140px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 48px;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+}
