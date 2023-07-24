@@ -69,7 +69,7 @@
 
 
 nav {
-    background-color: #aa9dce;
+    background-color:#d7d4e1;
     padding: 20px;
 }
 
@@ -437,20 +437,35 @@ nav {
 
 }
 
-.more-games {
+.more-games{
+    padding: 5%  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    width: 80%;
-    padding: 10% 0 5% 0;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(5, 1fr);
+.games1 {
+    
+    width: 90%;
+    display: flex;
     align-items: center;
     justify-content: center;
-
-
-
-
+    gap: 20px;
+    padding-bottom: 30px;
+    
 }
+.games2{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    
+}
+
+
 
 .games {
     width: 100%;
@@ -467,6 +482,9 @@ nav {
 
 .game-img img {
     width: 50%;
+}
+.game.title{
+    width: 100%;
 }
 
 
@@ -523,12 +541,22 @@ nav {
 }
 
 
+.hbr-nav:hover{
+    color: #F948B2;
+}
+
+
 .hbr-btn1:hover {
     border: 3px solid white;
 }
 
-.hbr-btn2:hover {
+.hbr-btn2:hover  {
     border: 3px solid #F948B2;
+    
+   
+}
+.hbr-btn2:hover .pf{
+    color: #F948B2;
 }
 
 .hbr-icon:hover {
@@ -540,7 +568,7 @@ nav {
 }
 
 .hbr-img:hover {
-    border: 3px solid #f4badd;
+    border: 3px solid rgb(213, 42, 148);
 }
 
 
@@ -574,7 +602,8 @@ nav {
     visibility: visible;
 }
 
-.hbr-play:hover {
+.hbr-play:hover  {
+    filter: brightness(500%);
     color: rgb(255, 255, 255);
 }
 
