@@ -437,35 +437,16 @@ nav {
 
 }
 
-.more-games{
-    padding: 5%  ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.games1 {
+.more-games {
     
-    width: 90%;
-    display: flex;
-    align-items: center;
+    width: 80%;
+    padding: 10% 0 5% 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
-    gap: 20px;
-    padding-bottom: 30px;
-    
+    gap: 10px;
+  
 }
-.games2{
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 30px;
-    
-}
-
-
 
 .games {
     width: 100%;
@@ -473,7 +454,6 @@ nav {
     border-radius: 40px;
     width: 180px;
     height: 40px;
-
     display: flex;
     align-items: center;
 
