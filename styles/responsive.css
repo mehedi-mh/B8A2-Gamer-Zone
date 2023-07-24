@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
 
     .nav-container,
-    .nav-items-container,.banner-container {
+    .nav-items-container,.banner-container,.gamer {
         flex-direction: column;
         align-items: center;
     }
@@ -38,6 +38,16 @@
         font-size: 38px;
     }
 
+    
+    .gamer-info {
+        text-align: center;
+    }
+
+    .gamer-img,
+    .gamer-info {
+        width: 100%;
+    }
+
 }
 
 
@@ -69,7 +79,7 @@
 
 @media screen and (min-width:576px) and (max-width:768px) {
 
-    .nav-items-container,.banner-container
+    .nav-items-container,.banner-container,.gamer
      {
         flex-direction: column;
         align-items: center;
@@ -106,6 +116,18 @@
     .banner-btn {
         padding-left: 30%;
     }
+
+
+    .gamer-img,
+    .gamer-info {
+        width: 100%;
+    }
+
+    .gamer-info {
+        text-align: center;
+
+    }
+
 
 
 

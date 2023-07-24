@@ -157,3 +157,36 @@ nav {
 .banner-img img {
     width: 100%;
 }
+
+
+.gamer{
+    
+    background: #dea7c435;
+    min-height: 200px;
+    display: flex;
+    padding: 0 10%;
+}
+
+.gamer-img{
+   
+    min-height: 20px;
+    width: 60%;
+}
+.gamer-img img{
+    width: 100%;
+}
+
+.gamer-info{
+    
+    padding: 10% 0 10% 0;
+    min-height: 20px;
+    width: 40%;
+    text-align:right;
+   
+}
+.gamer-info p{
+    font-size: 16px;
+    color: #534C64;
+    font-weight: 400;
+    padding: 5% 0 5% 0;
+}
