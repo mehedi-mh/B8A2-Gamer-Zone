@@ -423,4 +423,48 @@ width: 50%;
 }
 
     
+.ftr{
+   
+    padding-top: 5%;
+    color: white;
+    background: #0B0223;
+    text-align: center;
+}
+
+.ftr-title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.service,.logo,.policy{
+    padding: 20px;;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  gap: 20px;
     
+
+}
+
+.service,.policy{
+    color: rgb(167, 162, 162);
+    
+}
+
+.copy-right{
+   padding: 30px 0 50px 0;
+}
+
+
+.logo-tw{
+    color: skyblue;
+}
+.logo-fa{
+    color: rgb(21, 21, 108);
+}
+.logo-yo{
+    color:red;
+}

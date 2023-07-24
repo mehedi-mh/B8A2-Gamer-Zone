@@ -148,6 +148,21 @@
         margin-bottom: 20px;
     }
 
+    .ftr {
+        width: 100%;
+    }
+
+    .service,
+    .logo {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .policy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
 }
