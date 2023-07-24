@@ -2,7 +2,7 @@
 
     .nav-container,
     .nav-items-container,.banner-container,.gamer,.card-img, .instant1,
-    .instant2 {
+    .instant2,.careers {
         flex-direction: column;
         align-items: center;
     }
@@ -97,6 +97,59 @@
         right: -50px;
     }
 
+    
+    .career-section {
+        padding: 10%;
+    }
+
+    .careers {
+        width: 100%;
+    }
+
+    .career-info {
+        width: auto;
+    }
+
+    .career-img {
+        width: 100%;
+
+    }
+
+    .career-img img {
+        width: 100%;
+    }
+
+    .careers2 {
+        padding-bottom: 0;
+    }
+
+
+
+    
+    .more-games {
+        margin: 10%;
+        width: 80%;
+        padding-top: 10%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .games {
+        border: 1px solid black;
+        border-radius: 40px;
+        width: 90px;
+        height: 30px;
+        font-size: .5rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+
 }
 
 
@@ -129,7 +182,7 @@
 @media screen and (min-width:576px) and (max-width:768px) {
 
     .nav-items-container,.banner-container,.gamer,.card-img,.instant1,
-    .instant2
+    .instant2,.careers
      {
         flex-direction: column;
         align-items: center;
@@ -231,6 +284,57 @@
         right: -50px;
     }
 
+
+
+    .career-section {
+        padding: 10%;
+    }
+
+    .careers {
+        width: 100%;
+    }
+
+    .career-info {
+        width: auto;
+    }
+
+    .career-img {
+        width: 100%;
+
+    }
+
+    .career-img img {
+        width: 100%;
+    }
+
+    .careers2 {
+        padding-bottom: 0;
+    }
+
+
+    
+
+    .more-games {
+        margin: 10%;
+        width: 80%;
+        padding-top: 10%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .games {
+        border: 1px solid black;
+        border-radius: 40px;
+        width: 90px;
+        height: 30px;
+        font-size: .5rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
 
 
