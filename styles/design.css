@@ -468,3 +468,64 @@ width: 50%;
 .logo-yo{
     color:red;
 }
+
+
+.hbr-btn1:hover{
+    border: 3px solid white;
+}
+
+.hbr-btn2:hover{
+    border: 3px solid #F948B2;
+}
+
+.hbr-icon:hover{
+ border: 1px solid white;
+}
+
+.hbr-text1:hover{
+color: #ffe9f6;
+}
+
+.hbr-img:hover{
+    border: 3px solid  #f4badd;
+}
+
+
+
+.im-container:hover{
+    filter: brightness(60%);
+    
+}
+
+.im{
+    display: inline-block;
+    position: relative;
+}
+
+.play-icon{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.im-container .play-icon{
+    width: 100%;
+    visibility: hidden;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 1;
+}
+
+.im-container:hover .play-icon{
+    visibility: visible;
+}
+
+.hbr-play:hover{
+    color: rgb(255, 255, 255);
+}
+
+.text1{
+    color: rgb(165, 177, 177);
+}
+
