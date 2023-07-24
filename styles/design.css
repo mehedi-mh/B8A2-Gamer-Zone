@@ -227,3 +227,96 @@ nav {
     width: 98%;
 }
 
+
+
+
+
+.instant1{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 12%;
+    text-align: right;
+    padding: 60px 0 80px 0;
+    }
+    
+    
+    .instant1-text{
+        width: 50%;
+    }
+    .instant1-img1 img{
+        width: 100%;
+        position: relative;
+    }
+    .instant1-img2 img{
+        width: 100%;
+       
+    }
+    
+    .instant1-img{
+        width: 50%;
+        position: relative;
+    }
+    
+    .instant1-img1 {
+        width: 100%;
+        
+    }
+    .instant1-img2 {
+        width: 50%;
+        position: absolute;
+        bottom: -90px;
+        left: -100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .instant2{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        gap: 12%;
+        text-align: left;
+        padding: 80px 0 80px 0;
+        }
+    
+    .instant2-text{
+        width: 50%;
+    }
+    .instant2-img1 img{
+        width: 100%;
+        position: relative;
+    }
+    .instant2-img2 img{
+        width: 100%;
+       
+    }
+    
+    .instant2-img{
+        width: 50%;
+        position: relative;
+    }
+    
+    .instant2-img1 {
+        width: 100%;
+        
+    }
+    .instant2-img2 {
+        width: 50%;
+        position: absolute;
+        bottom: -90px;
+        right: -100px;
+    }
+    
+    
+    
