@@ -7,7 +7,6 @@
 }
 
 
-
 * {
     margin: 0;
 }
@@ -19,10 +18,52 @@
 
 
 
+/* shared style */
+.text-gradient {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    ;
+}
 
+.font-14 {
+    font-size: 14px;
+    color: #FF42A5;
+    font-weight: 600;
+}
 
+.font-10 {
+    font-size: 10px;
+    color: black;
+    font-weight: 700;
+}
 
+.font-48 {
+    font-size: 48px;
+    font-weight: 700;
+}
 
+.font-40 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.font-18 {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.font-20 {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.g {
+    color: #FF42A5;
+}
 
 
 
@@ -31,7 +72,6 @@ nav {
     background-color: #aa9dce;
     padding: 20px;
 }
-
 
 
 .nav-container {
@@ -85,9 +125,6 @@ nav {
 
 
 
-
-
-
 .banner-container {
     max-width: 1440px;
     margin: 0 auto;
@@ -97,7 +134,7 @@ nav {
 }
 
 .banner {
-    
+
     width: 50%;
     height: 620px;
     background-image: url("/images/Group\ 14.png");
@@ -124,6 +161,7 @@ nav {
 .banner-text p {
     padding-bottom: 20px;
 }
+
 .banner-btn {
     display: flex;
     padding-left: 18%;
@@ -159,32 +197,34 @@ nav {
 }
 
 
-.gamer{
-    
+.gamer {
+
     background: #dea7c435;
     min-height: 200px;
     display: flex;
     padding: 0 10%;
 }
 
-.gamer-img{
-   
+.gamer-img {
+
     min-height: 20px;
     width: 60%;
 }
-.gamer-img img{
+
+.gamer-img img {
     width: 100%;
 }
 
-.gamer-info{
-    
+.gamer-info {
+
     padding: 10% 0 10% 0;
     min-height: 20px;
     width: 40%;
-    text-align:right;
-   
+    text-align: right;
+
 }
-.gamer-info p{
+
+.gamer-info p {
     font-size: 16px;
     color: #534C64;
     font-weight: 400;
@@ -193,45 +233,48 @@ nav {
 
 
 
-.online-game{
+.online-game {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     justify-content: space-between;
     margin: 6% 0 6% 0;
-    
+
 }
-.card-title{
+
+.card-title {
     width: 80%;
     margin-bottom: 3%;
     text-align: center;
 }
-.card-img{
+
+.card-img {
     width: 80%;
     height: 100%;
     display: flex;
     gap: 20px;
     align-content: center;
 }
-.card-img img{
+
+.card-img img {
     width: 100%;
     height: 80%;
     border-radius: 10px;
 }
-.im{
+
+.im {
     width: 100%;
 }
-.im figcaption{
+
+.im figcaption {
     width: 98%;
 }
 
 
 
-
-
-.instant1{
+.instant1 {
     width: 80%;
     margin-left: 10%;
     display: flex;
@@ -239,159 +282,163 @@ nav {
     gap: 12%;
     text-align: right;
     padding: 60px 0 80px 0;
-    }
-    
-    
-    .instant1-text{
-        width: 50%;
-    }
-    .instant1-img1 img{
-        width: 100%;
-        position: relative;
-    }
-    .instant1-img2 img{
-        width: 100%;
-       
-    }
-    
-    .instant1-img{
-        width: 50%;
-        position: relative;
-    }
-    
-    .instant1-img1 {
-        width: 100%;
-        
-    }
-    .instant1-img2 {
-        width: 50%;
-        position: absolute;
-        bottom: -90px;
-        left: -100px;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .instant2{
-        width: 80%;
-        margin-left: 10%;
-        display: flex;
-        justify-content: space-between;
-        gap: 12%;
-        text-align: left;
-        padding: 80px 0 80px 0;
-        }
-    
-    .instant2-text{
-        width: 50%;
-    }
-    .instant2-img1 img{
-        width: 100%;
-        position: relative;
-    }
-    .instant2-img2 img{
-        width: 100%;
-       
-    }
-    
-    .instant2-img{
-        width: 50%;
-        position: relative;
-    }
-    
-    .instant2-img1 {
-        width: 100%;
-        
-    }
-    .instant2-img2 {
-        width: 50%;
-        position: absolute;
-        bottom: -90px;
-        right: -100px;
-    }
-    
-    
-
-.career-section{
-    margin-top: 8% ;
-       padding: 10% 10% 0 10%;
-       background: #FF42A5;
-    }
-    
-    .careers{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: white;
-        
-    }
-    
-    .career-info{
-        width: 50%;
-        height: 620px;
-        background-image: url("/images/Group\ 14.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    .white{
-        color: white;
-    }
-    
-    
-    .career-info p,.careers2{
-        padding-bottom: 20px;
-    }
-    
-    .career-img{
-        width: 50%;
-    }
-    .career-img img{
-        width: 100%;
-    }
-    
-    .careers2{
-        display: flex;
-        justify-items: center;
-        justify-content: space-between;
-    
-    }
-    .careers2 > .left{
-        text-align: left;
-    }
-    .careers2 > .right{
-        text-align: right;
-    }
-    
-    .btn-2{
-        border: none;
-        width: 180px;
-        height: 60px;
-        font-size: 20px;
-        border-radius: 40px;
-       color: #F948B2;
-    }
+}
 
 
-    
-.more{
+.instant1-text {
+    width: 50%;
+}
+
+.instant1-img1 img {
+    width: 100%;
+    position: relative;
+}
+
+.instant1-img2 img {
+    width: 100%;
+
+}
+
+.instant1-img {
+    width: 50%;
+    position: relative;
+}
+
+.instant1-img1 {
+    width: 100%;
+
+}
+
+.instant1-img2 {
+    width: 50%;
+    position: absolute;
+    bottom: -90px;
+    left: -100px;
+}
+
+
+
+
+.instant2 {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 12%;
+    text-align: left;
+    padding: 80px 0 80px 0;
+}
+
+.instant2-text {
+    width: 50%;
+}
+
+.instant2-img1 img {
+    width: 100%;
+    position: relative;
+}
+
+.instant2-img2 img {
+    width: 100%;
+
+}
+
+.instant2-img {
+    width: 50%;
+    position: relative;
+}
+
+.instant2-img1 {
+    width: 100%;
+
+}
+
+.instant2-img2 {
+    width: 50%;
+    position: absolute;
+    bottom: -90px;
+    right: -100px;
+}
+
+
+
+.career-section {
+    margin-top: 8%;
+    padding: 10% 10% 0 10%;
+    background: #FF42A5;
+}
+
+.careers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.career-info {
+    width: 50%;
+    height: 620px;
+    background-image: url("/images/Group\ 14.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.white {
+    color: white;
+}
+
+
+.career-info p,
+.careers2 {
+    padding-bottom: 20px;
+}
+
+.career-img {
+    width: 50%;
+}
+
+.career-img img {
+    width: 100%;
+}
+
+.careers2 {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+
+}
+
+.careers2>.left {
+    text-align: left;
+}
+
+.careers2>.right {
+    text-align: right;
+}
+
+.btn-2 {
+    border: none;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    color: #F948B2;
+}
+
+
+
+.more {
     width: 100%;
     display: flex;
     justify-content: center;
     background: rgba(234, 228, 228, 0.797);
     padding-bottom: 20px;
-    
+
 }
 
-.more-games{
-    
+.more-games {
+
     width: 80%;
     padding: 10% 0 5% 0;
     display: grid;
@@ -399,39 +446,39 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-content: center;
-   
-   
 
-   
+
+
+
 }
 
-.games{
+.games {
     width: 100%;
     background: white;
     border-radius: 40px;
     width: 180px;
-    height:40px;
-    
-display: flex;
-align-items: center;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
 
 
 }
 
-.game-img img{
-width: 50%;
+.game-img img {
+    width: 50%;
 }
 
-    
-.ftr{
-   
+
+.ftr {
+
     padding-top: 5%;
     color: white;
     background: #0B0223;
     text-align: center;
 }
 
-.ftr-title{
+.ftr-title {
     display: flex;
     text-align: center;
     align-items: center;
@@ -439,76 +486,82 @@ width: 50%;
     gap: 10px;
 }
 
-.service,.logo,.policy{
-    padding: 20px;;
+.service,
+.logo,
+.policy {
+    padding: 20px;
+    ;
     width: 100%;
     display: flex;
-  justify-content: center;
-  gap: 20px;
-    
+    justify-content: center;
+    gap: 20px;
+
 
 }
 
-.service,.policy{
+.service,
+.policy {
     color: rgb(167, 162, 162);
-    
+
 }
 
-.copy-right{
-   padding: 30px 0 50px 0;
+.copy-right {
+    padding: 30px 0 50px 0;
 }
 
 
-.logo-tw{
+.logo-tw {
     color: skyblue;
 }
-.logo-fa{
+
+.logo-fa {
     color: rgb(21, 21, 108);
 }
-.logo-yo{
-    color:red;
+
+.logo-yo {
+    color: red;
 }
 
 
-.hbr-btn1:hover{
+.hbr-btn1:hover {
     border: 3px solid white;
 }
 
-.hbr-btn2:hover{
+.hbr-btn2:hover {
     border: 3px solid #F948B2;
 }
 
-.hbr-icon:hover{
- border: 1px solid white;
+.hbr-icon:hover {
+    border: 1px solid white;
 }
 
-.hbr-text1:hover{
-color: #ffe9f6;
+.hbr-text1:hover {
+    color: #ffe9f6;
 }
 
-.hbr-img:hover{
-    border: 3px solid  #f4badd;
+.hbr-img:hover {
+    border: 3px solid #f4badd;
 }
 
 
 
-.im-container:hover{
+.im-container:hover {
     filter: brightness(60%);
-    
+
 }
 
-.im{
+.im {
     display: inline-block;
     position: relative;
 }
 
-.play-icon{
+.play-icon {
     font-size: 50px;
     color: white;
     text-align: center;
 }
 
-.im-container .play-icon{
+.im-container .play-icon {
     width: 100%;
     visibility: hidden;
     position: absolute;
@@ -517,15 +570,14 @@ color: #ffe9f6;
     z-index: 1;
 }
 
-.im-container:hover .play-icon{
+.im-container:hover .play-icon {
     visibility: visible;
 }
 
-.hbr-play:hover{
+.hbr-play:hover {
     color: rgb(255, 255, 255);
 }
 
-.text1{
+.text1 {
     color: rgb(165, 177, 177);
 }
-
